@@ -1,0 +1,17 @@
+{
+  "name": "Angular Calendar",
+  "version": "0.0.0",
+  "authors": [
+    "Brian van Vlymen <dontgizeup@yahoo.com>"
+  ],
+  "description": "Angular Calendar event API (single page application)",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.3",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.0"
+  },
+    "install": {
+    "path": "client/libs"
+  }
+}

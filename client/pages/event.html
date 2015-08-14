@@ -1,0 +1,9 @@
+<div class="text-center">
+  <a href="#/"><button type="button" class="btn btn-info">BACK</button></a>
+<div class="event-detail">
+  <h2 class="event-name">{{event.name}}</h2>
+  <p class="time"><span class="from">{{event.from | date:fullDate}}  </span> - <span class="to">{{event.to | date:fullDate}}  </span></p>
+  <p class="where"  ng-if="event.where">{{event.where}}  </p>
+  <p class="where" ng-if="!event.where"> SORRY, no address avaiable!</p>
+</div>
+</div>

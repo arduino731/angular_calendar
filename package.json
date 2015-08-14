@@ -1,0 +1,16 @@
+{
+  "name": "angular_calendar",
+  "version": "0.0.0",
+  "description": "Angular Calendar event API (single page application)",
+  "main": "server.js",
+  "author": "Brian van vlymen  <dontgizeup@yahoo.com>",
+  "dependencies": {
+    "angular-route": "^1.4.4",
+    "ejs": "^2.3.3",
+    "express": "^3.2.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC"
+}

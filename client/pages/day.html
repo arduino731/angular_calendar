@@ -1,0 +1,13 @@
+<div class="text-center">
+    <h1>Hello world!</h1>
+  <h2 class="date"> {{day.date | date:fullDate}} </h2>
+    <div class="event" ng-repeat="one in day.events">
+      <a href="#/{{$index}}">
+        <h3 class="name"> {{one.name}} </h3>
+        <p><span class="from">{{one.from | date:'EEEE M/d'  }}</span> - <span class="to">{{one.to | date:'EEEE M/d'}}</span></p>
+        <p>{{one.where}}</p>
+      </a>
+    </div>
+    
+  </div>
+  
